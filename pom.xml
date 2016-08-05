@@ -63,12 +63,12 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>jkcsoft-nexus-repo-snapshot</id>
+            <id>jkcsoft-internal-snapshots</id>
             <name>JKC Internal Nexus Repo (Snapshots)</name>
             <url>http://localhost:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
-            <id>jkcsoft-nexus-repo-release</id>
+            <id>jkcsoft-internal-releases</id>
             <name>JKC Internal Nexus Repo (Releases)</name>
             <url>http://localhost:8081/repository/maven-releases/</url>
         </repository>
