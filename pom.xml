@@ -16,11 +16,10 @@
 
     <groupId>org.jkcsoft</groupId>
     <artifactId>jkcsoft-parent-pom</artifactId>
-    <version>1.3-SNAPSHOT</version>
+    <version>1.4-SNAPSHOT</version>
+
     <packaging>pom</packaging>
-
     <name>James K Coles Software</name>
-
     <description>
         Jim Coles lives in Austin Texas and develops his own software. His most awesome
         software product is a language called Space. If you steal his software he will
@@ -88,6 +87,7 @@
     </dependencyManagement>
 
     <distributionManagement>
+<!--
         <snapshotRepository>
             <id>jkcsoft-internal-snapshots</id>
             <name>JKC Internal Nexus Repo (Snapshots)</name>
@@ -98,6 +98,7 @@
             <name>JKC Internal Nexus Repo (Releases)</name>
             <url>http://localhost:8081/repository/maven-releases/</url>
         </repository>
+-->
     </distributionManagement>
 
 </project>
